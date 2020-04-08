@@ -1,0 +1,39 @@
+body{
+	width:100%;
+	height:100%;
+	margin: 0px;
+	padding: 0px;
+background: url('red.jpg');
+background-size: cover;
+font-family: baloo;
+}
+
+.picture-grid{
+	display: grid;
+	grid-template-columns: repeat( auto-fill, minmax(340px, 1fr));
+	justift-items: center;
+	grid-gap: 15px;
+	grid-row-gap: 15px;
+	margin:100px;
+	padding:100px; 
+}
+
+.grid-box img {
+	width: 100%;
+}
+.banner-text{
+	width: 100%;
+	position: absolute;
+}
+.banner-text ul{
+	height: 25px;
+	float: right;
+}
+.banner-text ul li{
+	display:inline-block;
+	padding:40px 15px;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 20px;
+
+}
