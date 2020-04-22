@@ -8,14 +8,11 @@ background-size: cover;
 font-family: baloo;
 }
 
-.picture-grid{
+.container{
 	display: grid;
-	grid-template-columns: repeat( auto-fill, minmax(340px, 1fr));
-	justift-items: center;
-	grid-gap: 15px;
-	grid-row-gap: 15px;
-	margin:100px;
-	padding:100px; 
+	
+	margin:10px;
+	padding:10px; 
 }
 
 .grid-box img {
